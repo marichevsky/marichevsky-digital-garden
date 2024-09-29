@@ -6,6 +6,7 @@
     width: 300px;
 }
 
-body > div:nth-child(1) > nav > a > h1 {
+h1, .markdown-rendered h1, .HyperMD-header-1, .HyperMD-list-line .cm-header-1 {
     text-align: left;
 }
+
