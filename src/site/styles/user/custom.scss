@@ -6,7 +6,14 @@
     width: 300px;
 }
 
-.filetree-sidebar {
-    flex-basis: calc((100vw - var(--page-width)) / 2);
+h1, .cm-header-1, body.doc-title-h1 .inline-title, body:not([class*="doc-title"]) .inline-title {
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(
+    var(--gradientDegree),
+    var(--pink) 0,
+    var(--orange) 100%
+  );
 }
 
