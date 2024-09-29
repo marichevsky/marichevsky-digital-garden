@@ -5,3 +5,7 @@
 .filetree-sidebar {
     width: 300px;
 }
+
+body > div:nth-child(1) > nav > a > h1 {
+    text-align: left;
+}
